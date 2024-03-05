@@ -1,4 +1,4 @@
-# Streamlit Weather Dashboard
+# Bike Share Dashboard
 
 This Streamlit dashboard visualizes the bike rental trends over time, the weather condition influences towards bike rentals in Q1,  and working day influences towards bike rentals. 
 
@@ -10,8 +10,9 @@ This will start the Streamlit server, and you can access the app via your web br
 
 ## Features
 
-- **Weather Distribution**: Visualizes the distribution of weather situations.
-- **Engagement Plot**: Displays the relationship between season, working day, and weather situation.
+- **Filter by Date**: Select a specific date range to focus your analysis.
+- **Filter by Category**: To explore trends within groups.
+- **Data Visualization**: Visualization of data trends 
 
 ## File Structure
 
