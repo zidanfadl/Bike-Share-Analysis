@@ -1,17 +1,17 @@
 # Streamlit Weather Dashboard
 
-This Streamlit app visualizes weather data and explores the relationship between temperature, weekday, and weather situation.
+This Streamlit dashboard visualizes the bike rental trends over time, the weather condition influences towards bike rentals in Q1,  and working day influences towards bike rentals. 
 
 ## How to Run
 
-To run the Streamlit dashboard, execute the following command:
-
+To run the Streamlit dashboard, execute the following command in terminal:
+*streamlit run <file path>*
 This will start the Streamlit server, and you can access the app via your web browser at `http://localhost:8501`.
 
 ## Features
 
 - **Weather Distribution**: Visualizes the distribution of weather situations.
-- **Engagement Plot**: Displays the relationship between temperature, weekday, and weather situation.
+- **Engagement Plot**: Displays the relationship between season, working day, and weather situation.
 
 ## File Structure
 
