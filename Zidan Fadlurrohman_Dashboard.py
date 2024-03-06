@@ -12,18 +12,18 @@ sns.set(style='dark')
 
 #load dataset
 @st.cache_resource
-def load_hour_data():
-    dataset = pd.read_csv("hour_data.csv")
-    return dataset
+# def load_hour_data():
+#     dataset = pd.read_csv("hour_data.csv")
+#     return dataset
 
-hour_dataset = load_hour_data()
+hour_dataset = pd.read_csv("hour_data.csv")
 
 @st.cache_resource
-def load_day_data():
-    dataset = pd.read_csv("day_data.csv")
-    return dataset
+# def load_day_data():
+#     dataset = pd.read_csv("day_data.csv")
+#     return dataset
 
-day_dataset = load_day_data()
+day_dataset = pd.read_csv("day_data.csv")
 
 #title
 st.title("Bike Share Dashboard")
