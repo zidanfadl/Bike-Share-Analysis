@@ -5,7 +5,7 @@ This Streamlit dashboard visualizes the bike rental trends over time, the weathe
 ## How to Run
 
 To run the Streamlit dashboard, execute the following command in terminal:
-*streamlit run <file path>*
+*streamlit run (f"`{file_path}`")
 
 This will start the Streamlit server, and you can access the app via your web browser at `http://localhost:8501`.
 
